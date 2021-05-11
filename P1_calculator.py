@@ -10,7 +10,7 @@ while(num==True):
         print(a1-a2)
     elif op=="*":
         print(a1*a2)
-    elif op=="/":
+    elif op=="/" or "%":
         print(a1/a2)
     else:
         print("Invalid Operator")
