@@ -15,11 +15,11 @@ def temp_convrt():
         elif wish=="c to k":
             Cel=float(input("Enter The Temprature In Celcius:- "))
             k=Cel+273.15
-            print(f"Your Temprature In Fahrenheit Is {k}")
+            print(f"Your Temprature In kelvin Is {k}")
         elif wish=="k to c":
             kel=float(input("Enter The Temprature In Kelvin:- "))
             ke=kel-273.15
-            print(f"Your Temprature In Fahrenheit Is {ke}")
+            print(f"Your Temprature In celcius Is {ke}")
         elif wish=="k to f":
             kel=float(input("Enter The Temprature In Kelvin:- "))
             ka=(kel-273.15)*1.8+32
@@ -27,11 +27,11 @@ def temp_convrt():
         elif wish=="f to c":
             fer=float(input("Enter The Temprature In Fahrenheit:- "))
             fe=(fer-32)*(0.55555555555)
-            print(f"Your Temprature In Fahrenheit Is {fe}")
+            print(f"Your Temprature In Celcius Is {fe}")
         elif wish=="f to k":
             fer=float(input("Enter The Temprature In Fahrenheit:- "))
             fa=(fer-32)*(0.55555555555)+273.15
-            print(f"Your Temprature In Fahrenheit Is {fa}")
+            print(f"Your Temprature In kelvin Is {fa}")
         again=str(input("Do You Want To Convert Again(y or n):- "))
         if again=="y":
             num=+1
