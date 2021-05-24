@@ -1,5 +1,5 @@
 # Name:- Arjun Chauhan
-# Instagram Handle:- @rockstarjun.py
+# Instagram Handle:- @python.programe
 
 
 import random
