@@ -1,12 +1,12 @@
 # Name:- Arjun Chauhan
-# Instagram handle:- @rockstarjun
+# Instagram handle:- @python.programe
 
 import turtle
 t=turtle.Turtle()
 win=turtle.Screen()
 t.shape("classic")
 win.bgcolor("black")
-t.speed(2000)
+t.speed(600)
 t.penup()
 t.setposition(-150,150)
 t.pendown()
